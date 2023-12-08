@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./access/css/style.css">
+</head>
+<body>
+    <h1>Quản lý sản phẩm</h1>
+    <h2>Đăng kí sản phẩm</h2>
+
+    <!-- <div class="name">
+        <p>Name</p>
+        <input type="text" name="name" value="">
+    </div> -->
+    <form action="">
+        <table>
+            <tr>
+                Name
+                <td>
+                    <input type="text" name="name" value="">
+                </td>
+            </tr>
+        <table>
+            <tr>
+                Price
+                <td>
+                    <input type="number" name="price" value="">
+                </td>               
+            </tr>
+        </table>
+            <tr>
+                <button type="button">Submib</button>            
+            </tr>
+        </table>
+    </form>
+ 
+    <h2>Danh sách sản phẩm</h2>
+
+<table>
+    <thead>
+        <th><b>ID</b></th>
+        <th><b>Name</b></th>
+        <th><b>Image</b></th>
+        <th><b>Price</b></th>
+        <th><b>Action</b></th>
+    </thead>
+</table>
+
+<div id="render"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
